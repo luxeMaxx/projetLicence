@@ -1,0 +1,358 @@
+.section_home {
+    width: 100%;
+    padding-top: 1%;
+}
+
+.bloc_section {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin:  auto;
+    margin-bottom: 3%;
+}
+
+.bloc_child1  {
+    width: 65%;
+    height: max-content;
+}
+
+.head_bloc {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+}
+
+.img_face {
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.4);
+}
+
+.img_face h1 {
+    font-size: 2.5vw;
+    padding: 20% 0 20%;
+    margin-left: 2%;
+    color: white;
+}
+
+.inf {
+    background-color: rgb(0, 54, 233);
+    width: max-content;
+    padding: 0.5% 1% 0.5% 1%;
+    color: white;
+    text-align: center;
+    font-size: 1.08vw;
+    font-weight: 400;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.title_article {
+    font-size: 2vw;
+    margin-bottom: 1.5%;
+}
+
+.infos_date {
+    font-size: 1.1vw;
+    margin-bottom: 1.3%;
+}
+
+.article p {
+    word-spacing: 2px;
+}
+.infos_date .date {
+    font-size: 1vw;
+    margin: 0 1.5% 0 2%;
+}
+
+.infos_date span:nth-child(2) {
+    margin-right: 5%;
+}
+
+article p {
+    font-size:  1.2vw;
+    word-spacing: 2px;
+    margin: 0.5% 0 2%;
+    width: 90%;
+}
+
+.para_p h4 {
+    font-size: 1.3vw;
+}
+
+.title_sous {
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin: 5% 0 0.5%;
+}
+
+.content_p {
+    margin: 1% 0 3% 4%;
+    width: 98%;
+}
+
+.nb {
+    font-size: 1.5vw;
+}
+
+article p a {
+    font-size: 1vw;
+    color: rgb(0, 81, 255);
+    margin-left: 2%;
+}
+
+.body_article {
+    width: 94%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 1% 0.5% 2% 1%;
+}
+
+.orther_article {
+    margin: 12% 0 5%;
+    font-size: 2vw;
+}
+
+/*** style pour la section des commentaire ******/
+
+.section_comment {
+    width: 100%;
+    margin: 13% 0 10%;
+}
+
+.section_comment h1 {
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+
+.section_comment form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 12%;
+}
+
+.section_comment form textarea {
+    padding: 1% 0 0 2%;
+    font-size: 1.2vw;
+    border-radius: 3px;
+    resize: none;
+}
+
+.section_comment form input  {
+    border-radius: 3px;
+    font-size: 1.15vw;
+    width: 95%;
+    border: 1px solid grey;
+    margin: 3% 0 2%;
+    padding: 2.5% 2% 2.5% 2%;
+}
+
+.section_comment form button {
+    margin-top: 3%;
+    padding: 2.8% 4% 2.8% 7%;
+    border-radius: 2px;
+    color: white;
+    font-size: 1.4vw;
+    width: 100%;
+    background-color: rgb(238, 40, 40);
+}
+
+.section_comment h2 {
+    font-size: 1.8vw;
+    font-weight: 450;
+    margin: 1% 0 4%;
+}
+
+.chat_content {
+    width: 50%;
+    height: max-content;
+    margin-bottom: 8%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1vw;
+}
+
+.author span:first-child {
+    font-size: 1.9vw;
+    color: rgb(71, 71, 71);
+    margin-right: 3%;
+}
+
+.author span:last-child {
+    font-size: 1.25vw;
+}
+
+.chat_content .datess {
+    font-size: 0.9vw;
+    margin-bottom: 1%;
+}
+
+.comments {
+    background-color: rgb(228, 228, 228);
+    width: 93%;
+    font-size: 1vw;
+    margin: 3% 0 1% 5%;
+    padding: 1% 0 1.5% 1.5%;
+    word-spacing: 1px;
+}
+
+.chat_content a  {
+    font-size: 1vw;
+    color: rgb(0, 60, 255);
+    float: right;
+    margin-top: 4%;
+}
+
+
+/**** style pour le bloc du contacte ****/
+
+.bloc_child2 {
+    width: 30%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 18%;
+    width: 22vw;
+    height: max-content;
+}
+
+.contact h2 {
+    font-size: 1.7vw;
+    margin: 2% 0 2% 3%;
+    font-weight: 450;
+}
+
+.contact h3 {
+    font-size: 1.4vw;
+    font-weight: 450;
+    margin: 5% 0 7% 3%;
+}
+
+.contact p {
+    font-size: 1.02vw;
+    margin: 0 0 5% 3%;
+}
+
+.contact p a {
+    color: rgb(0, 54, 233);
+}
+
+.contact p span {
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin-right: 4%;
+}
+
+.contact img {
+    width: 97%;
+    margin: 8% 0 2% 1.6%;
+}
+
+@media screen and (max-width: 620px) {
+
+    
+    .bloc_section {
+        width: 95%;
+        flex-direction: column;
+        margin:  auto;
+    }
+
+    .bloc_child1  {
+        width: 100%;
+        height: max-content;
+    } 
+    
+    .bloc_child2 {
+        width: 100%;
+    }
+
+    .contact {
+        width: 50%;
+    }
+
+    .contact h2 {
+        font-size: 4vw;
+    }
+    
+    .contact h3 {
+        font-size: 3vw;
+    }
+    
+    .contact p {
+        font-size: 2.5vw;
+    }
+
+    .contact p span{
+        font-size: 2.5vw;
+    }
+
+    article p {
+        font-size:  2.6vw;
+    }
+
+    .chat_content a {
+        font-size: 2.5vw;
+    }
+    .title_sous {
+        font-size: 4vw;
+    }
+
+    .inf {
+        font-size: 3vw;
+    }
+
+    .infos_date {
+        font-size: 3vw;
+    }
+    
+    .infos_date .date {
+        font-size: 2.5vw;
+    }
+
+    .chat_content p {
+        font-size: 2.5vw;
+    }
+
+    .author span:first-child {
+        font-size: 4vw;
+        color: rgb(71, 71, 71);
+        margin-right: 3%;
+    }
+    
+    .author span:last-child {
+        font-size: 3vw;
+    }
+    
+    .chat_content .datess {
+        font-size: 2vw;
+    }
+
+    .section_comment h1 {
+        font-size: 6vw;
+    }
+    
+    .section_comment form textarea {
+        font-size: 4vw;
+    }
+    
+    .section_comment form button {
+        font-size: 3.5vw;
+    }
+    
+    .section_comment h2 {
+        font-size: 5vw;
+    }
+    
+    .orther_article {
+        font-size: 5vw;
+    }
+}

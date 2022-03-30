@@ -1,0 +1,263 @@
+.login_block {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 65%;
+    margin-bottom: 10%;
+    height: max-content;
+}
+
+.form form {
+    height: max-content;
+    margin-bottom: 10%;
+}
+
+.form form p {
+    font-size: 1vw;
+    margin-top: 8%;
+}
+
+.form p a {
+    margin-left: 3%;
+    color: rgb(231, 9, 9);
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+
+.form p a:hover {
+    text-decoration: underline;
+}
+
+.login_block form {
+    width: 100%;
+}
+
+.login_block form h2 {
+    margin-bottom: 1%;
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: rgb(247, 11, 11);
+}
+
+.login_block form hr {
+    margin-bottom: 6%;
+    color: rgb(209, 24, 24);
+    background: rgb(209, 24, 24);
+}
+
+.form_divs,
+.form_div {
+    width: 100%;
+}
+
+.form_divs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8%;
+}
+
+.form_divs div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    position: relative;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.7%;
+    position: relative;
+}
+
+.form_divs input {
+    padding: 2.7% 0% 2.7%;
+}
+
+.form_div input {
+    padding: 1.4% 0% 1.4%;
+}
+
+.form form select {
+    color: grey;
+}
+
+.form form .form_divs select {
+    width: 100%;
+    padding: 2.5% 1% 2.5%;
+}
+
+.form form p {
+    font-size: 1.2vw;
+    margin: 6% 0 2%;
+}
+
+.form label {
+    font-size: 1.2vw;
+    font-weight: 480;
+    margin-bottom: 1%;
+    color: rgb(29, 29, 29);
+}
+
+.form form input,
+.form form select {
+    border: 1px solid rgb(161, 160, 160);
+    border-radius: 3px;
+    font-size: 1.1vw;
+}
+
+.form form input::placeholder {
+    color: rgb(161, 160, 160);
+    font-size: 1vw;
+}
+
+.form form input:focus {
+    box-shadow: 0 0 6px rgb(247, 11, 11);
+    border: none;
+}
+
+.form form .date {
+    padding: 1.9% 0 1.9%;
+}
+
+.form form .select {
+    padding: 1.3% 0 1.3%;
+    text-indent: 1.5%;
+}
+
+.form form span {
+    font-size: 1vw;
+    color: #ff5500;
+    margin-bottom: 2%;
+}
+
+@keyframes dongle {
+    0% {
+        transform: translate( -10px, 0px);
+    }
+    10% {
+        transform: translate( 10px, 0px);
+    }
+    20% {
+        transform: translate( -10px, 0px);
+    }
+    30% {
+        transform: translate( 10px, 0px);
+    }
+    40% {
+        transform: translate( -10px, 0px);
+    }
+    50% {
+        transform: translate( 10px, 0px);
+    }
+    60% {
+        transform: translate( -10px, 0px);
+    }
+    70% {
+        transform: translate( 10px, 0px);
+    }
+    80% {
+        transform: translate( -10px, 0px);
+    }
+    90% {
+        transform: translate( 10px, 0px);
+    }
+    100% {
+        transform: translate( 0px, 0px);
+    }
+}
+
+.form form button {
+    padding: 1.4% 0 1.4%;
+    margin-top: 2%;
+    width: 22%;
+    color: white;
+    font-size: 1.27vw;
+    border-radius: 3px;
+    float: right;
+    background-color: rgb(247, 11, 11);
+}
+
+.form form button:hover {
+    border: 1px solid rgb(247, 11, 11);
+    background: none;
+    color: rgb(247, 11, 11);
+}
+
+.form form .btn_pass {
+    color: rgb(0, 89, 255);
+    font-size: 1.05vw;
+}
+
+#releve {
+    border: none;
+}
+
+@media screen and (max-width: 620px) {
+    .login_block {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+    .login_block form h2 {
+        font-size: 5vw;
+    }
+
+    .login_block form .form_div input {
+        font-size: 2vw;
+        padding: 2.8% 0 2.8%;
+    }
+
+    .login_block form input::placeholder {
+        font-size: 2.8vw;
+    }
+
+    .login_block form label {
+        font-size: 3.2vw;
+    }
+
+    .form form span {
+        font-size: 2.5vw;
+    }
+    .login_block form .btn_pass {
+        font-size: 3vw;
+    }
+
+    .form form button {
+        font-size: 3vw;
+    }
+
+    .form_divs input {
+        padding: 8% 0% 6%;
+    }
+    
+    .form_div input {
+        padding: 8% 0% 7%;
+    }
+
+    .form form .date {
+        font-size: 2.5vw;
+        padding: 3.6% 0 3.6%;
+    }
+    
+    .form form .select {
+        padding: 2.4% 0 2.4%;
+        font-size: 2.6vw;
+    }
+
+    .form form .form_divs .selects {
+        padding: 3.9% 0 3.9%;
+        font-size: 2.6vw;
+    }
+
+    .form form p {
+        font-size: 3vw;
+    }
+}
