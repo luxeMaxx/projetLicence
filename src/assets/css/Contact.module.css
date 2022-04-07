@@ -1,0 +1,10 @@
+.block_contacts {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 65%;
+    border: 1px solid;
+}

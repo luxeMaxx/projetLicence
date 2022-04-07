@@ -1,0 +1,85 @@
+.notify_block {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_msg {
+    width: 78%;
+    margin: 3% auto;
+}
+
+.block {
+    width: 50%;
+    margin: 3% auto;
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.block svg {
+    font-size: 8vw;
+    color: rgb(0, 161, 0);
+    margin: 3% 0 5%;
+    text-decoration: underline;
+}
+
+.block p:nth-child(2) {
+    color: rgb(0, 161, 0);
+    
+}
+.block p {
+    font-size: 1.1vw;
+    margin: 2% 0 8%;
+    word-spacing: 2px;
+}
+
+.block p:first-child {
+    font-size: 1.2vw;
+    color: green;
+    margin: 2% 0 2%;
+}
+
+.block a {
+    font-size: 1.2vw;
+    color: rgb(250, 23, 23);
+}
+
+#echec svg {
+    color: red;
+}
+
+#echec p:nth-child(2) {
+    color: red;
+}
+
+@media screen and (max-width: 620px) {
+    .notify_block {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .block_msg {
+        width: 100%;
+    }
+
+    .block {
+        width: 90%;
+    }
+
+    .block svg {
+        font-size: 13vw;
+        margin-bottom: 2%;
+    }
+    
+    .block p {
+        font-size: 2.5vw;
+        margin-bottom: 1%;
+    }
+    
+    .block a {
+        font-size: 2.3vw;
+    }
+}

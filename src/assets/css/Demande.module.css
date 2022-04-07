@@ -1,0 +1,108 @@
+.demande_block {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.block {
+    width: 65%;
+}
+.block h1 {
+    font-size: 2.2vw;
+    font-weight: 400;
+    color: rgb(248, 17, 17);
+    margin-bottom: 5%;
+}
+.block form {
+    margin-left: 5%;
+    width: 90%;
+    height: max-content;
+    position: relative;
+}
+
+.block form .p {
+    font-size: 1.2vw;
+}
+
+.block form label {
+    font-size: 1.3vw;
+    color: black;
+}
+
+.block form input  {
+    padding: 5%;
+    font-size: 5vw;
+    border: 5px solid ;
+}
+
+.block form p {
+    margin-top: 7%;
+    width: 100%;
+}
+
+.block span {
+    margin-left: 3%;
+    font-size: 1.4vw;
+}
+
+.block form button {
+    width: max-content;
+    font-size: 1.3vw;
+    padding: 1.4% 3% 1.4% 3%;
+    color: white;
+    background-color: rgb(248, 17, 17);
+    margin-top: 5%;
+    border-radius: 3px;
+    float: right;
+}
+
+.block form button:hover {
+    background: none;
+    border: 1px solid rgb(248, 17, 17);
+    color: rgb(248, 17, 17);
+}
+
+.block form p:last-child {
+    font-size: 1.2vw;
+}
+
+.block form p a {
+    color: rgb(0, 62, 248);
+}
+
+@media screen and (max-width: 620px) {
+    .demande_block {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .block form button {
+        margin-top: 10%;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .block h1{
+        font-size: 5vw;
+    }
+
+    .block form span {
+        font-size: 3.5vw;
+    }
+
+    .block form label {
+        font-size: 3vw;
+    }
+    .block form .p {
+        font-size: 3vw;
+    }
+
+    .block form button {
+        font-size: 3vw;
+    }
+}

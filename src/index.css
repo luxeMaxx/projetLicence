@@ -1,0 +1,32 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+form button,
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+form select {
+  outline: none;
+}
+
+form input {
+  outline: none;
+  text-indent: 2%;
+  border-radius: 2px;
+  transition: 0.s;
+}
+
