@@ -1,0 +1,189 @@
+.block_login {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.034);
+}
+
+.btnAdd,
+.btnAdds {
+    color:#26297c;
+    font-size: 1vw;
+    background: none;
+    display: flex;
+    align-items: center;
+    width: 12%;
+    position: absolute;
+    right: 1.5%;
+    top: 3%;
+    background-color: #26297c15;
+    padding: 0.4% 0 0.4% ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0d129e;
+}
+
+.btnAdds {
+    left: 1%;
+    top: 1%;
+    background:none;
+    box-shadow: none;
+    width: max-content;
+}
+
+.btnAdd svg,
+.btnAdds svg {
+    font-size: 1.8vw;
+    margin: 0 5% 0 8%;
+}
+
+.btnAdd:hover {
+    box-shadow: none;
+    border: 1px solid #26297c;
+}
+
+.block_login form {
+    width: 37%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.103);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.block_login form h2 {
+    color: #31347a;
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin: 6% 0 5%;
+}
+
+.error_divs {
+    width: 88%;
+    background-color: rgba(255, 0, 0, 0.219);text-align: center;
+    margin-bottom: 5%;
+    display: none;
+}
+
+.error_divs p {
+    font-size: 1vw;
+    color: black;
+    margin: 4% 0 4%;
+}
+
+.div_form {
+    width: 90%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.block_login form span {
+    font-size: 1vw;
+    color: #ff5500;
+    position: absolute;
+    left: 2%;
+}
+
+.block_login form .div_form div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.block_login form  input {
+    width: 88%;
+    padding: 2% 0 2%;
+    background: rgba(0, 0, 255, 0.103);
+    border: 1px solid #373a81;
+    border-radius: 5px;
+    font-size: 1.05vw;
+}
+
+.block_login form input::placeholder {
+    color: #26297c;
+}
+
+form input:focus {
+    box-shadow: 0 0 7px #26297ce8;
+}
+form .div_form svg {
+    color: #31347a;
+    font-size: 1.9vw;
+    margin-right: 3%;
+}
+
+form .div_form button {
+    position: absolute;
+    right: 2%;
+    background: none;
+    display: none;
+    align-items: center;
+    border: none;
+}
+
+form .div_form button svg {
+    font-size: 1.4vw;
+}
+
+form a {
+    font-size: 1vw;
+    color: #26297c;
+    margin-right: 36%;
+}
+
+form .btns ,
+form .btn,
+form .btnss{
+    font-size: 1.1vw;
+    margin: 7% 0 5% 66%;
+    padding: 1.65% 3% 1.65% 3%;
+    width: max-content;
+    background-color: #1b1e75;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+form .btns {
+    margin-left: 48%;
+}
+
+form .btnss {
+    margin-left: 57%;
+}
+form .btns:hover,
+form .btn:hover {
+    background: none;
+    color: #26297c;
+    border: 1px solid;
+}
+
+/****popup***/
+.popup_content {
+    width: 25vw;
+    height: max-content;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    color: black;
+    font-size: 1.vw;
+    text-align: center;
+    border-radius: 3px;
+    padding: 13% 0 13%;
+}
+
+.popup_content svg {
+    font-size: 1.8vw;
+    color : #24288f;
+    position: absolute;
+    top: 8%;
+    left: 1%;
+}

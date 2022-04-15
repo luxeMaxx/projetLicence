@@ -7,31 +7,31 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: ;
+  width: 100vw;
+  height: 100vh;
 }
 
 form button,
-button {
+button, select {
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-form select {
-  outline: none;
-}
-
 form input {
-  outline: none;
   text-indent: 2%;
-  border-radius: 2px;
-  transition: 0.7s;
   padding-right: 3%;
+  outline: none;
+  transition: 0.7s;
 }
 
-hr {
-  background-color: black;
+#hide {
+  display: none;
 }
-
