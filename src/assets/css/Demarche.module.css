@@ -31,10 +31,15 @@
 }
 
 .block p {
-    font-size: 1.12vw;
+    font-size: 1.2vw;
     width: 90%;
-    word-spacing: 2px;
+    word-spacing: 3px;
 }
+
+.block p a {
+    color: blue;
+}
+
 
 .text1 {
     margin-bottom: 5%;
@@ -46,11 +51,18 @@
     margin-bottom: 3%;
 }
 
+.orther_article {
+    margin: 12% 0 5%;
+    font-size: 2vw;
+}
+
 .article {
     width: 96%;
     margin: auto;
     background-color: rgb(240, 240, 240);
-    padding: 1.2% 0 2%;
+    padding: 1.2% 0 1.5% 1%;
+    border-radius: 3px;
+    margin-bottom: 5%;
 }
 
 .article h3 {
@@ -64,6 +76,7 @@
 
 .article p a {
     color: rgb(15, 75, 255);
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 620px) {

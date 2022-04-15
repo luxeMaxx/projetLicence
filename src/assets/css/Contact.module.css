@@ -2,9 +2,171 @@
     width: 78%;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .block {
     width: 65%;
-    border: 1px solid;
+}
+
+.block form {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.block h1 {
+    color: rgb(223, 29, 22);
+    font-size: 1.8vw;
+    font-weight: 400;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.block h1 svg {
+    font-size: 2.5vw;
+    margin-left: 2%;
+}
+
+.block form span {
+    color: #ff5500;
+    font-size: 1.1vw;
+    margin-bottom: 1%;
+}
+
+.block form input {
+    padding: 2.2% 2% 2.2%;
+    border: 1px solid rgb(39, 38, 38);
+    border-radius: 5px;
+    width: 96%;
+    font-size: 1.2vw;
+}
+
+.block form input:focus {
+    box-shadow: 0 0 5px rgb(255, 44, 37);
+}
+
+
+.block form textarea {
+    resize: none;
+    width: 100%;
+    font-size: 1.4vw;
+    border: 1px solid rgb(39, 38, 38);
+    border-radius: 5px;outline: none;
+    padding: 2% 0 5%;
+    text-indent: 2%;
+}
+
+.block form label {
+    font-size: 1.35vw;
+    margin: 3% 0 1%;
+}
+
+.block form button {
+    width: 100%;
+    background-color: rgb(218, 40, 34);
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    padding: 2.5% 0 2.5%;
+    border-radius: 5px;
+}
+
+.block form button:hover {
+    background-color: rgb(255, 74, 67);
+}
+
+.msg_comments {
+    width: 50vw;
+    height: max-content;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  0 0 40px black;
+    padding: 10% 0 10%;
+}
+
+.msg_comments svg {
+    font-size: 5vw;
+    color: green;
+}
+
+.msg_comments p {
+    font-size: 1.2vw;
+    height: max-content;
+    margin: 2% 0 2%;
+}
+
+.msg_comments a {
+    font-size: 1.2vw;
+    color: rgb(238, 36, 0);
+}
+
+@media screen and (max-width : 620px) {
+    .block_contacts {
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .block {
+        width: 100%;
+    } 
+    
+    
+    .block h1 {
+        font-size: 4vw;
+    }
+
+    .block h1 svg {
+        font-size: 6vw;
+    }
+
+    .block form span {
+        font-size: 2.5vw;
+    }
+
+    .block form input {
+        padding: 3% 2% 3%;
+        font-size: 3vw;
+    }
+
+    .block form input:focus {
+        box-shadow: none;
+    }
+
+
+    .block form textarea {
+        font-size: 3vw;
+    }
+
+    .block form label {
+        font-size: 3.5vw;
+    }
+
+    .block form button {
+        font-size: 3.5vw;
+    }
+
+    
+    .msg_comments {
+        width: 90vw;
+        padding: 15% 0 15%;
+    }
+
+    .msg_comments svg {
+        font-size: 10vw;
+    }
+
+    .msg_comments p {
+        font-size: 4vw;
+    }
+
+    .msg_comments a {
+        font-size: 3vw;
+    }
+
 }

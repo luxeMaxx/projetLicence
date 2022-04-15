@@ -13,12 +13,12 @@ header {
 }
 
 .div_head ul {
-    width: 27%;
+    width: 32%;
     display: flex;
     align-items: center;
     justify-content: end;
     height: max-content;
-    margin-right: 3%;
+    margin-right: 8.8%;
 }
 
 .div_head ul li {
@@ -68,13 +68,13 @@ header {
 }
 
 .logo {
-    width: 100%;
+    width: 95%;
 }
 
 
 .textLogo {
     font-size: 0.8vw;
-    font-size: 450;
+    font-weight: 500;
     display: block;
     width: 60%;
     height: max-content;
@@ -89,7 +89,7 @@ header {
 
 .trait div {
     width: 33.7%;
-    padding: 1% 0 1%;
+    padding: 0.8% 0 0.8%;
 }
 
 .trait div:nth-child(1) {
@@ -121,7 +121,7 @@ header {
 }
 
 .names span {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-weight: 500;
     margin-right: 5%;
 }
@@ -154,25 +154,28 @@ nav, nav ul {
 
 nav {
     display: flex;
+    justify-content: space-around;
 } 
 nav ul {
     display: flex;
-    padding-left: 3%;
-    width: 92%;
+    padding-left: 0%;
+    width: 50%;
     margin: auto;
 }
 
 nav ul li {
     list-style: none;
-    padding: 0.7% 2.5% 0.7% 2.5%;
+    padding: 1.7% 4% 1.7% 4%;
     cursor: pointer;
     display: flex;
     align-items: center;
+    text-align: center;
     transition: 0.7s;
 }
 
 nav ul li svg {
     font-size: 1.5vw;
+    margin-right: 2%;
 }
 
 nav ul li:hover {
@@ -191,27 +194,27 @@ nav ul li a {
 }
 
 .searchBar {
-    width: 100%;
-    background-color: rgb(231, 231, 231);
+    width: 40%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  
 }
 
 .searchBar form {
     margin: 1.5% 0 1.5%;
-    width: 35%;
+    width: 50%;
     border: 1px solid;
     display: flex;
     align-items: center;
 }
 
 .searchBar li {
-    margin: 0 8% 0 3%;
+    margin: 0 15% 0 3%;
     padding-left: 2%;
     list-style: none;
-    width: 18%;
-    font-size: 1.2vw;
+    width: 50%;
+    font-size: 1.1vw;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -234,6 +237,7 @@ nav ul li a {
     text-align: none;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .searchBar li a:hover {
@@ -248,17 +252,18 @@ nav ul li a {
 }
 
 .searchBar form input {
-    width: 87%;
+    width: 88%;
     padding-right: 2%;
     text-indent: 2%;
-    padding: 2% 0 2%;
+    padding: 2.2% 0 2.2%;
     border: none;
 }
 
 .searchBar form button {
-    padding: 1.25% 0 1.25%;
+    padding: 2.2% 0 2.2%;
     width: 13%;
-    font-size: 1.5vw;
+    height: 100%;
+    font-size: 1.1vw;
     color: white;
     background-color: rgb(32, 32, 32);
     font-weight: bold;
@@ -280,7 +285,7 @@ nav ul li a {
 }
 
 .div_foot div:first-child svg {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
 }
 
 .div_foot div:last-child {
@@ -305,6 +310,7 @@ nav ul li a {
 .div_foot div:last-child span:last-child {
     position: absolute;
     font-size: 0.8vw;
+    font-weight: 500;
     width: max-content;
     display: none;
 }
@@ -319,7 +325,7 @@ nav ul li a {
 }
 
 .div_foot div .span2 {
-    top: -50%;
+    top: -60%;
     left: -220%;
 }
 
@@ -330,7 +336,7 @@ nav ul li a {
 
 .div_foot #links svg {
     color: black;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-right: 2%;
 }
 
@@ -410,6 +416,10 @@ nav ul li a {
 
 @media screen and (max-width: 620px) {
 
+    nav {
+        flex-direction: column;
+    }
+
     .div_head {
         justify-content: start;
     }
@@ -461,12 +471,18 @@ nav ul li a {
         font-size: 3vw;
     }
 
-    
-
-    .searchBar form {
-        width: 60%;
+    .searchBar {
+        margin-left: 1%;
+        width: 80%;
     }
 
+    .searchBar form {
+        width: 80%;
+    }
+
+    .searchBar li {
+        width: 50%;
+    }
     .searchBar li svg {
         animation: none;
         font-size: 3vw;

@@ -36,19 +36,26 @@
     width: 80%;
 }
 
+.block_d {
+    margin-bottom: 4%;
+    background-color: whitesmoke;
+    padding: 1% 0 2% 2%;
+}
+
 .liste_d h4 {
     margin-bottom: 1%;
 }
 
 .liste_d p {
     margin-left: 1.8%;
-    font-size: 1.08vw;
+    font-size: 1vw;
 }
 
 .liste_d span {
     color: rgb(228, 0, 0);
     font-weight: 500;
     margin-right: 1%;
+    margin-bottom: 5%;
 }
 
 .block_child button {

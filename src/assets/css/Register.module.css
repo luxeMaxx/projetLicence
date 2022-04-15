@@ -46,6 +46,10 @@
     color: rgb(247, 11, 11);
 }
 
+.login_block form h2 b {
+    font-weight: 400;
+}
+
 .login_block form hr {
     margin-bottom: 6%;
     color: rgb(209, 24, 24);
@@ -200,18 +204,147 @@
     border: none;
 }
 
-.login_block form .div_erreur {
+.form .msg {
     width: 100%;
     height: max-content;
     background-color: rgba(255, 0, 0, 0.137);
-    padding: 0.1% 0 5% 0%;
+    padding: 4% 0 4% 0%;
     margin-bottom: 3%;
     border-radius: 2px;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    display: none;
 }
 
+.popup {
+    padding: 25% 20% 25% 20%;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8vw;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    border-radius: 3px;
+}
+
+.popup a {
+    width: max-content;
+    font-size: 1vw;
+    color: rgb(0, 60, 255);
+    margin: 5% 0 0 15%;
+}
+
+.popup span {
+    width: max-content;
+}
+
+.animation {
+    width: 50vw;
+    height: max-content;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10% 3% 10% 3%;
+}
+
+.circle1 {
+    width: 16%;
+    height: max-content;
+    margin: 21% auto;
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.circle1 div {
+    width: 22%;
+    padding: 11% 0 11%;
+    background-color: rgb(247, 11, 11);
+    border-radius: 50%;
+    animation:  animation 0.7s infinite;
+}
+
+@keyframes animation {
+    from {
+        opacity: 0.1;;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.circle1 div:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.circle1 div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.circle1 div:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.anim_div2 {
+    width: 20vw;
+    height: max-content;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.anim_div2 svg {
+    font-size: 5vw;
+    color: rgb(0, 155, 0);
+    margin-bottom: 8%;
+}
+
+.anim_div2 p {
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 5% 0 6%;
+}
+
+.anim_div2 a {
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: max-content;
+    padding: 5% 15% 5% 15%;
+    color: rgb(247, 11, 11);
+    background: none;
+    text-decoration: underline;
+    border-radius: 3px;
+}
+
+.anim_div2 a:hover {
+    text-decoration: none;
+}
+
+
 @media screen and (max-width: 620px) {
+    .popup {
+        padding: 50% 20% 50% 20%;
+        width: max-content;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 3vw;
+        background-color: white;
+        box-shadow: 0 0 15px black;
+        border-radius: 3px;
+    }
+    
+    .popup a {
+        width: max-content;
+        font-size: 2vw;
+        color: rgb(0, 60, 255);
+        margin: 5% 0 0 15%;
+    }
+
     .login_block {
         width: 95%;
         flex-direction: column;
@@ -226,7 +359,7 @@
 
     .login_block form .form_div input {
         font-size: 2vw;
-        padding: 2.8% 0 2.8%;
+        padding: 2.2% 0 2.2%;
     }
 
     .login_block form input::placeholder {
@@ -249,29 +382,46 @@
     }
 
     .form_divs input {
-        padding: 8% 0% 6%;
+        padding: 6% 0% 5%;
     }
     
     .form_div input {
-        padding: 8% 0% 7%;
+        padding: 6% 0% 5%;
+        font-size: 2.6vw;
     }
 
     .form form .date {
         font-size: 2.5vw;
-        padding: 3.6% 0 3.6%;
+        padding: 3.2% 0 3.2%;
     }
     
     .form form .select {
-        padding: 2.4% 0 2.4%;
+        padding: 1.6% 0 1.6%;
         font-size: 2.6vw;
     }
 
     .form form .form_divs .selects {
-        padding: 3.9% 0 3.9%;
+        padding: 1.6% 0 1.6%;
         font-size: 2.6vw;
     }
 
     .form form p {
         font-size: 3vw;
+    }
+
+    .anim_div2 svg {
+        font-size: 20vw;
+    }
+    
+    .anim_div2 p {
+        font-size: 3.5vw;
+        margin: 5% 0 12%;
+    }
+    
+    .anim_div2 a {
+        font-size: 4vw;
+        color: rgb(247, 11, 11);
+        background: none;
+        text-decoration: underline;
     }
 }

@@ -38,7 +38,7 @@
 .inf {
     background-color: rgb(0, 54, 233);
     width: max-content;
-    padding: 0.5% 1% 0.5% 1%;
+    padding: 0.8% 3% 0.8% 3%;
     color: white;
     text-align: center;
     font-size: 1.08vw;
@@ -96,7 +96,8 @@ article p {
 }
 
 article p a {
-    font-size: 1vw;
+    font-size: 1.1vw;
+    font-weight: 500;
     color: rgb(0, 81, 255);
     margin-left: 2%;
 }
@@ -127,7 +128,7 @@ article p a {
 }
 
 .section_comment form {
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     margin: 2% 0 12%;
@@ -149,26 +150,34 @@ article p a {
     padding: 2.5% 2% 2.5% 2%;
 }
 
-.section_comment form button {
+
+.btn_comment {
     margin-top: 3%;
     padding: 2.8% 4% 2.8% 7%;
     border-radius: 2px;
     color: white;
     font-size: 1.4vw;
     width: 100%;
-    background-color: rgb(238, 40, 40);
+    background-color: rgb(240, 24, 24);
 }
 
+.btn_comment:hover {
+    background: rgb(236, 70, 70);
+}
 .section_comment h2 {
     font-size: 1.8vw;
     font-weight: 450;
-    margin: 1% 0 4%;
+    margin: 1% 0 5%;
 }
 
 .chat_content {
     width: 50%;
     height: max-content;
     margin-bottom: 8%;
+}
+
+.chat_content h2 {
+    margin-bottom: 1%;
 }
 
 .author {
@@ -189,24 +198,20 @@ article p a {
 }
 
 .chat_content .datess {
-    font-size: 0.9vw;
-    margin-bottom: 1%;
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(238, 36, 0);
 }
 
 .comments {
     background-color: rgb(228, 228, 228);
-    width: 93%;
-    font-size: 1vw;
+    box-shadow: 2px 2px 0px gray;
+    width: 100%;
+    font-size: 1.1vw;
     margin: 3% 0 1% 5%;
-    padding: 1% 0 1.5% 1.5%;
+    padding: 4% 2% 4% 2%;
+    border-radius: 3px;
     word-spacing: 1px;
-}
-
-.chat_content a  {
-    font-size: 1vw;
-    color: rgb(0, 60, 255);
-    float: right;
-    margin-top: 4%;
 }
 
 
@@ -216,6 +221,7 @@ article p a {
     width: 30%;
     height: max-content;
     border-radius: 5px;
+    position: relative;
 }
 
 .contact {
@@ -230,6 +236,7 @@ article p a {
     font-size: 1.7vw;
     margin: 2% 0 2% 3%;
     font-weight: 450;
+    color: rgb(238, 40, 40);
 }
 
 .contact h3 {
@@ -259,6 +266,37 @@ article p a {
     border: 1px solid rgb(212, 212, 212);
 }
 
+
+.msg_comments {
+    width: 50vw;
+    height: max-content;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  0 0 40px black;
+    padding: 10% 0 10%;
+}
+
+.msg_comments svg {
+    font-size: 6vw;
+    color: rgb(0, 165, 0);
+}
+
+.msg_comments p:nth-child(2) {
+    color: rgb(0, 165, 0);
+}
+.msg_comments p {
+    font-size: 1.2vw;
+    height: max-content;
+    margin: 2% 0 2%;
+}
+
+.msg_comments a {
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: rgb(255, 58, 23);
+}
+
 @media screen and (max-width: 620px) {
 
     .img_face h1 {
@@ -284,11 +322,15 @@ article p a {
     }
 
     .contact {
+        margin-top: 5%;
         width: 65%;
+        background: none;
+        box-shadow: none;
     }
 
     .contact h2 {
         font-size: 4vw;
+        color: rgb(238, 40, 40);
     }
     
     .contact h3 {
@@ -305,6 +347,10 @@ article p a {
 
     article p {
         font-size:  2.6vw;
+    }
+
+    article p a{
+        font-size:  2.8vw;
     }
 
     .chat_content a {
@@ -362,5 +408,22 @@ article p a {
     
     .orther_article {
         font-size: 5vw;
+    }
+
+    .msg_comments {
+        width: 90vw;
+        padding: 15% 0 15%;
+    }
+    
+    .msg_comments svg {
+        font-size: 10vw;
+    }
+    
+    .msg_comments p {
+        font-size: 4vw;
+    }
+    
+    .msg_comments a {
+        font-size: 3vw;
     }
 }
